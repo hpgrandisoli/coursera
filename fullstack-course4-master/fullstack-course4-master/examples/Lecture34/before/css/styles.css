@@ -85,7 +85,10 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
 }
 
 /********** Medium devices only **********/
@@ -102,7 +105,10 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -148,5 +154,10 @@ body {
     text-transform: uppercase;
   }
   /* End Header */
-
+ 
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
 }
